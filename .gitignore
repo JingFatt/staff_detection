@@ -1,0 +1,19 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# IDE / editor
+.vscode/
+*.swp
+
+# Dataset and videos
+dataset/
+video/
+
+# Models
+model/
+*.pt
+*.pth
+
+# Logs / temp files
+*.log
