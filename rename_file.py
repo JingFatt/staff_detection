@@ -1,7 +1,7 @@
 import os
 
-folder = "D:/Github Clone/odp/dataset/pic/New folder/5"   # 你的图片folder
-start_number = 775
+folder = "D:/Github Clone/odp/dataset/new"   # 你的图片folder
+start_number = 1
 
 files = sorted(os.listdir(folder))
 
