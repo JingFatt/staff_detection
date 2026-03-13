@@ -1,7 +1,7 @@
 # Staff Detection System
 
 ## Project Description
-This project is designed to detect staff members in videos, track their positions, and optionally save cropped images of each detected staff member. The system leverages the YOLOv26 models for real-time detection, providing coordinates and confidence scores for each frame. This can be used for security monitoring, staff verification, or attendance systems.
+This project is designed to detect staff members in videos, track their positions, and optionally save cropped images of each staff member detected. The system leverages the [YOLOv26](https://docs.ultralytics.com/models/yolo26/#supported-tasks-and-modes) models for real-time detection, providing coordinates and confidence scores for each frame. This can be used for security monitoring, staff verification, or attendance systems.
 
 ---
 
@@ -39,6 +39,12 @@ Install the required Python packages:
 ```bash
 pip install numpy==2.4.3 opencv_python==4.13.0.92 tqdm==4.67.3 ultralytics==8.4.21
 ```
+
+---
+## Dataset
+
+You can download the dataset used in this project from:  
+[Download Staff Badge Dataset](https://app.roboflow.com/ds/00rNnCbH8F?key=9tJY8aODkO)
 
 ---
 
