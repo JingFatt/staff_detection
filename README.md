@@ -14,3 +14,27 @@ This project is designed to detect staff members in videos, track their position
 ---
 
 ## Repository Structure
+```txt
+staff_detection/
+│
+├─ dataset/ 
+├─ output/
+├─ video/
+├─ .gitignore # Ignore unnecessary files/folders
+├─ frame_cap.py
+├─ main.py
+├─ rename_file.py
+├─ tag.py
+├─ test.py
+├─ train.py
+├─ yolo26m.pt
+├─ yolo26m-pose.pt
+
+
+```
+---
+
+## Requirements
+Install the required Python packages:
+```bash
+pip install numpy==2.4.3 opencv_python==4.13.0.92 tqdm==4.67.3 ultralytics==8.4.21
