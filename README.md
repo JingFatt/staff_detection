@@ -1,5 +1,9 @@
 # Staff Detection System
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/2279af50-05b6-47f1-9d9e-f4578a3a7890" width="600" alt="Staff Detection Demo" />
+</div>
+
 ## Project Description
 This project is designed to detect staff members in videos, track their positions, and optionally save cropped images of each staff member detected. The system leverages the [YOLOv26](https://docs.ultralytics.com/models/yolo26/#supported-tasks-and-modes) models for real-time detection, providing coordinates and confidence scores for each frame. This can be used for security monitoring, staff verification, or attendance systems.
 
