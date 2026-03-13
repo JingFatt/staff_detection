@@ -6,12 +6,16 @@ __pycache__/
 .vscode/
 *.swp
 
-# Dataset and videos
+# Dataset and videos (optional: ignore large or generated files)
 dataset/
 video/
 
+# Outputs and results
+/runs/
+/output/
+video/output.mp4
+
 # Models
-model/
 *.pt
 *.pth
 
