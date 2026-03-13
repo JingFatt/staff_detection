@@ -53,8 +53,7 @@ The final dataset contains **1,000 images** (after processing), split as follows
 - **Validation set:** 200 images  
 - **Test set:** 100 images  
 
-This dataset is available for download via Roboflow:  
-[Download Staff Badge Dataset](https://app.roboflow.com/ds/00rNnCbH8F?key=9tJY8aODkO)
+This dataset is available for download via [Download Staff Badge Dataset](https://app.roboflow.com/ds/00rNnCbH8F?key=9tJY8aODkO)
 
 ---
 
