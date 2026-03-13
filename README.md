@@ -47,9 +47,9 @@ The dataset for this project was carefully curated from **YouTube videos**, coll
 
 Frames were extracted from these videos using a Python script, and each frame was processed to embed the **staff badge** onto the corresponding person. These images were then annotated manually to create the **ground truth** for detection.  
 
-The final dataset contains **1,100 images** (after processing), split as follows:  
+The final dataset contains **1,000 images** (after processing), split as follows:  
 
-- **Training set:** 800 images  
+- **Training set:** 700 images  
 - **Validation set:** 200 images  
 - **Test set:** 100 images  
 
