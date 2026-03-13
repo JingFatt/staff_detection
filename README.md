@@ -43,7 +43,17 @@ pip install numpy==2.4.3 opencv_python==4.13.0.92 tqdm==4.67.3 ultralytics==8.4.
 ---
 ## Dataset
 
-You can download the dataset used in this project from:  
+The dataset for this project was carefully curated from **YouTube videos**, collected from three different sources to ensure diversity in lighting, angles, and environments.  
+
+Frames were extracted from these videos using a Python script, and each frame was processed to embed the **staff badge** onto the corresponding person. These images were then annotated manually to create the **ground truth** for detection.  
+
+The final dataset contains **1,100 images** (after processing), split as follows:  
+
+- **Training set:** 800 images  
+- **Validation set:** 200 images  
+- **Test set:** 100 images  
+
+This dataset is available for download via Roboflow:  
 [Download Staff Badge Dataset](https://app.roboflow.com/ds/00rNnCbH8F?key=9tJY8aODkO)
 
 ---
