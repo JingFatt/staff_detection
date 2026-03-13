@@ -1,7 +1,7 @@
 # Staff Detection System
 
 ## Project Description
-This project is designed to detect staff members in videos, track their positions, and optionally save cropped images of each detected staff member. The system leverages the YOLOv8 and YOLOv26 models for real-time detection, providing coordinates and confidence scores for each frame. This can be used for security monitoring, staff verification, or attendance systems.
+This project is designed to detect staff members in videos, track their positions, and optionally save cropped images of each detected staff member. The system leverages the YOLOv26 models for real-time detection, providing coordinates and confidence scores for each frame. This can be used for security monitoring, staff verification, or attendance systems.
 
 ---
 
