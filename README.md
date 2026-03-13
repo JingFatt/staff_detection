@@ -38,3 +38,24 @@ staff_detection/
 Install the required Python packages:
 ```bash
 pip install numpy==2.4.3 opencv_python==4.13.0.92 tqdm==4.67.3 ultralytics==8.4.21
+```
+
+---
+
+## Usage
+### Detect staff in a video
+```bash
+python main.py --detect --video path/to/video.mp4
+```
+### Save cropped staff images
+```bash
+python main.py --save_crop --video path/to/video.mp4
+```
+### Training your own model
+``bash
+python train.py
+```
+
+
+
+
