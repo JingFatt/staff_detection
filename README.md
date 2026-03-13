@@ -97,13 +97,10 @@ The curves below show how these metrics evolve during training/testing.
 Here is the confusion matrix of the model predictions on the test set:
 
 <div align="center">
-  <img width="500" height="500" alt="confusion_matrix_normalized" src="https://github.com/user-attachments/assets/907b8900-6405-4680-8f19-9f4b5a4ea441" />
-  <img width="500" height="500" alt="confusion_matrix" src="https://github.com/user-attachments/assets/a3da392c-2d7e-4fef-95f3-48d7675b9d13" />    
+  <img width="400" height="400" alt="confusion_matrix_normalized" src="https://github.com/user-attachments/assets/907b8900-6405-4680-8f19-9f4b5a4ea441" />
+  <img width="400" height="400" alt="confusion_matrix" src="https://github.com/user-attachments/assets/a3da392c-2d7e-4fef-95f3-48d7675b9d13" />    
 </div>
 After normalization, the confusion matrix clearly shows the model’s accuracy in detecting **staff members**.
-
-### Test Set Examples
-Below are examples from the test set showing how accurately the model detects staff members:
 
 ### Test Set Examples with Predictions
 
