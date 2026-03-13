@@ -80,5 +80,39 @@ Frame 1160 | Staff located at (506,648) | conf=0.66
   <img src="https://github.com/user-attachments/assets/a774817d-41c7-4827-b0c0-a5f87be571f1" width="200"/>
 </div>
 
+## Model Evaluation
 
+The model performance is measured using **BoxF1**, **Box Precision (BoxP)**, and **Recall (R)**.  
+The curves below show how these metrics evolve during training/testing.
 
+### Metrics Curves
+<div align="center">
+  <img width="400" height="400" alt="BoxR_curve" src="https://github.com/user-attachments/assets/2c48174e-83d6-4cd5-9e68-a103ba891a28" />
+  <img width="400" height="400" alt="BoxPR_curve" src="https://github.com/user-attachments/assets/3fd4fe3e-921b-4fce-9f41-1d0b88549663" />
+  <img width="400" height="400" alt="BoxP_curve" src="https://github.com/user-attachments/assets/fbc1d3a4-e906-48eb-ac28-9f8beec8daa1" />
+  <img width="400" height="400" alt="BoxF1_curve" src="https://github.com/user-attachments/assets/1b9d38a1-6581-496e-aa5c-66d2bf1885c8" />
+</div>
+
+### Confusion Matrix
+Here is the confusion matrix of the model predictions on the test set:
+
+<div align="center">
+  <img width="500" height="500" alt="confusion_matrix_normalized" src="https://github.com/user-attachments/assets/907b8900-6405-4680-8f19-9f4b5a4ea441" />
+  <img width="500" height="500" alt="confusion_matrix" src="https://github.com/user-attachments/assets/a3da392c-2d7e-4fef-95f3-48d7675b9d13" />    
+</div>
+After normalization, the confusion matrix clearly shows the model’s accuracy in detecting **staff members**.
+
+### Test Set Examples
+Below are examples from the test set showing how accurately the model detects staff members:
+
+### Test Set Examples with Predictions
+
+Below are examples from the test set showing how accurately the model detects staff members:
+
+| Ground Truth | Prediction |
+|--------------|------------|
+| <div align="center"><img src="https://github.com/user-attachments/assets/feeed004-7808-480f-97b6-2279e5386e30" width="500"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/5f7c9c73-e25d-45b5-9328-916985343bd9" width="500"/></div> |
+| <div align="center"><img src="https://github.com/user-attachments/assets/79bfc698-0413-45f1-8eb7-b9060bc11061" width="500"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/1192b5e2-4ffc-4764-9d8c-cf19f4a0ca8f" width="500"/></div> |
+| <div align="center"><img src="https://github.com/user-attachments/assets/53555130-b5f5-48cf-9481-2caf54dcbcc5" width="500"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/7c34690a-7d8f-4abe-93a0-21572cc6981f" width="500"/></div> |
+
+These results demonstrate the model’s capability to correctly detect and identify staff members in the test set.
